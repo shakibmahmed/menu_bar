@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+.main_menu {
+    min-height: 55px;
+    background-color: green;
+    width: 960px;
+    margin: 10px auto;
+}
+
+.main_menu ul {
+    list-style: none
+}
+
+.main_menu ul li {
+    float: left;
+    border-right: 1px solid white;
+    position: relative;
+}
+
+
+.main_menu ul li:last-child {
+    border-right: none;
+}
+
+
+
+
+
+
+.main_menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 16px 32px;
+    padding: 16px 37.18px;
+    transition: 1s;
+}
+
+.main_menu ul li a:hover {
+    background-color: brown;
+    transform: scale(1.05);
+    <!-- transform: rotate(360deg) scale(1.15);
+    -- >
+}
+
+
+
+
+
+.main_menu ul li ul {
+    position: absolute;
+    background-color: #543d58;
+    width: 201px;
+    margin-left: -15px;
+    top: -9999px;
+    ;
+}
+
+.main_menu ul li:hover ul {
+    top: 55px
+}
+
+.main_menu ul li ul li {
+    border-right: none;
+    border-bottom: 1px solid white;
+}
+
+.main_menu ul li ul li:last-child {
+    border-bottom: none
+}
+
+.main_menu ul li ul li a {
+    padding: 16px 9px;
+    width: 183px;
+}
+
+.main_menu ul li ul li a:hover {
+    background-color: chocolate
+}
+
+
+
+
+
+.main_menu .login {
+    margin-left: -60px;
+    padding: 0;
+}
+
+.main_menu .login li {
+    background-color: #395fad;
+    border-bottom: none;
+    border-bottom: none;
+    padding: 0px
+}
+
+.main_menu .login li input {
+    height: 29px;
+    width: 182px;
+    border: 1px solid black;
+    font-size: 12px;
+    display: block;
+}
+
+.main_menu .login li a:hover {
+    transform: none
+}
+
+
+
+
+
+.image_gallary {
+    margin-top: 190px
+}
+
+
+.single_image {
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin: 5px 21px;
+}
+
+
+.single_image .image {
+    width: 350px;
+    height: 310px;
+    margin: 0 auto
+}
+
+.single_image .image img {
+    height: 310px;
+    width: 340px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
+
+.single_image .image img:hover {
+    height: 310px;
+    width: 340px;
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.11)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signup_form { 
+    margin: 42px 262px;
+    float: right;
+    text-align: left;
+    min-width: 40%;
+   
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #24313C; padding: 30px; 
+}
+
+.signup_form h1 {
+    text-align: center;
+    background-color: #179B77
+}
+
+form {
+    margin-top: 10px
+}
+
+.input {
+    margin-top: 16px;
+    margin-right: 13px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 23px;
+    border: 1px white solid;
+}
+
+
+
+
+.caa_button {
+    background-color: #179B77;
+    width: 415px;
+    height: 46px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 85px;
+}
+
+
+
+
+
+
+
+
